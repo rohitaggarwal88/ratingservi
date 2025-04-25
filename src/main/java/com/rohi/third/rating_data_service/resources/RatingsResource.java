@@ -32,7 +32,7 @@ public class RatingsResource {
         return userRating;
 
     }
-    @RequestMapping(method = RequestMethod.GET, value="/tst/user")
+    @RequestMapping(method = RequestMethod.GET, value="/tst/user1234")
     public String getUserRatingsTest1() {
     	System.out.println("hello print12");       
         return"first string return";
