@@ -2,6 +2,7 @@ package com.rohi.third.rating_data_service.resources;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rohi.third.rating_data_service.model.Rating;
@@ -29,6 +30,12 @@ public class RatingsResource {
         UserRating userRating = new UserRating();
         userRating.initData("123");
         return userRating;
+
+    }
+    @RequestMapping(method = RequestMethod.GET, value="/tst/user")
+    public String getUserRatingsTest1() {
+    	System.out.println("hello print12");       
+        return"first string return";
 
     }
 
