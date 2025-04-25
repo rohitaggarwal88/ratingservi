@@ -8,7 +8,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rohi.third</groupId>
-	<artifactId>rating-data-service</artifactId>
+	<artifactId>rating-data-service1</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>rating-data-service1</name>
