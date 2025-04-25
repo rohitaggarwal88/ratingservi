@@ -25,6 +25,7 @@ public class RatingsResource {
     }
     @RequestMapping("/tst/user")
     public UserRating getUserRatingsTest() {
+    	System.out.println("hello print");
         UserRating userRating = new UserRating();
         userRating.initData("123");
         return userRating;
