@@ -10,6 +10,7 @@
 	<groupId>com.rohi.third</groupId>
 	<artifactId>rating-data-service</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>rating-data-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
