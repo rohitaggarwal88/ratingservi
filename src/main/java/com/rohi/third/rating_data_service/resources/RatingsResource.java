@@ -9,7 +9,7 @@ import com.rohi.third.rating_data_service.model.Rating;
 import com.rohi.third.rating_data_service.model.UserRating;
 
 @RestController
-@RequestMapping("/ratingsdata")
+@RequestMapping("/ratingsdata1")
 public class RatingsResource {
 
     @RequestMapping("/movies/{movieId}")
