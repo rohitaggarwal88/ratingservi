@@ -15,6 +15,7 @@
 	<packaging>war</packaging>
 	<name>Jenkin-springboot-proj2</name>
 	<description>Demo project for Spring Boot</description>
+	
 	<url />
 	<licenses>
 		<license />
