@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rohi.third</groupId>
-	<artifactId>jenkinproj</artifactId>
+	<artifactId>Jenkin-springboot-proj2</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>jenkinproj</name>
+	<name>Jenkin-springboot-proj2</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>
