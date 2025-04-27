@@ -12,7 +12,7 @@
 	<groupId>com.rohi.third</groupId>
 	<artifactId>Jenkin-springboot-proj</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
-	<!--<packaging>war</packaging>-->
+	<packaging>war</packaging>
 	<name>Jenkin-springboot-proj</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
