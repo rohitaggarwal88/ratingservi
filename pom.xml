@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rohi.third</groupId>
-	<artifactId>jenkinspringboot</artifactId>
+	<artifactId>jenkinspringbootnew</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>jenkinspringboot</name>
+	<name>jenkinspringbootnew</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>
@@ -92,11 +92,11 @@
 
 	<build>
 		<plugins>
-			<!--<plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>-->
-			<plugin>
+			</plugin>
+			<!--<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
@@ -125,7 +125,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 
 		</plugins>
 		<finalName>${project.artifactId}</finalName>
