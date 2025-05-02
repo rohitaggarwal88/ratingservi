@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rohi.third</groupId>
-	<artifactId>jenkinspringbootnew</artifactId>
+	<artifactId>jenkinspringbootnew1q</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>jenkinspringbootnew</name>
+	<name>jenkinspringbootnew1q</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>
