@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkin-springboot-app-depl
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jenkin-springboot-app
+  template:
+    metadata:
+      labels:
+        app: jenkin-springboot-app
+    spec:
+      containers:
+        - name: jenkin-springboot-app
+          image: rohitaggarwal88/jenkinspringbootnew1q
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 6002
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkin-springboot-svc
+spec:
+  ports:
+    - targetPort: 6002
+      port: 80
+  selector:
+    app: jenkin-springboot-app
+  type: NodePort
